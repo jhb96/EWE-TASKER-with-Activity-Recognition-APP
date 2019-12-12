@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".RecognitionActivity">
+
+    <item
+        android:id="@+id/action_reload"
+        android:icon="@drawable/ic_replay_white_24dp"
+        android:title=""
+        android:onClick="requestUpdatesHandler"
+        app:showAsAction="always">
+    </item>
+
+
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_more_vert_white_24dp"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_informationAR"
+                android:icon="@drawable/ic_more_vert_white_24dp"
+                android:title="About Activity Recognition"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+
+
+</menu>

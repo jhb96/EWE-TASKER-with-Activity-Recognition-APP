@@ -1,0 +1,182 @@
+{
+  "ifElements": {
+    "1":{
+      "Name":"Bluetooth",
+      "Type":"Conexion",
+      "ResourceId":"",
+      "ReceiverName":"",
+      "Actions":{
+        "1":{
+          "name":"ON",
+          "type":"boolean"
+        },
+        "2":{
+          "name":"OFF",
+          "type":"boolean"
+        }
+      }
+    },
+    "2":{
+      "Name": "Wifi",
+      "Type": "Conexion",
+      "ResourceId":"",
+      "ReceiverName":"",
+      "Actions":{
+        "1":{
+          "name":"ON",
+          "type":"boolean"
+        },
+        "2":{
+          "name":"OFF",
+          "type":"boolean"
+        }
+      }
+    },
+    "3":{
+      "Name": "Red de Datos",
+      "Type": "Conexion",
+      "ResourceId":"",
+      "ReceiverName":"",
+      "Actions":{
+        "1":{
+          "name":"ON",
+          "type":"boolean"
+        },
+        "2":{
+          "name":"OFF",
+          "type":"boolean"
+        }
+      }
+    },
+    "4":{
+      "Name": "Screen",
+      "Type": "Conexion",
+      "ResourceId":"",
+      "ReceiverName":"",
+      "Actions":{
+        "1":{
+          "name":"ON",
+          "type":"boolean"
+        },
+        "2":{
+          "name":"OFF",
+          "type":"boolean"
+        }
+      }
+    },
+    "5":{
+      "Name": "Battery",
+      "Type": "Conexion",
+      "ResourceId":"",
+      "ReceiverName":"",
+      "Actions":{
+        "1":{
+          "name":"Connected",
+          "type":"boolean"
+        },
+        "2":{
+          "name":"Disconnected",
+          "type":"boolean"
+        },
+        "3":{
+          "name":"Level",
+          "type":"Integer"
+        }
+      }
+    },
+    "6":{
+      "Name": "GPS",
+      "Type": "Conexion",
+      "ResourceId":"",
+      "ReceiverName":"",
+      "Actions":{
+        "1":{
+          "name":"ON",
+          "type":"boolean"
+        },
+        "2":{
+          "name":"OFF",
+          "type":"boolean"
+        }
+      }
+    },
+    "7":{
+      "Name": "Time",
+      "Type": "Conexion",
+      "ResourceId":"",
+      "ReceiverName":"",
+      "Actions":{
+        "1":{
+          "name":"Set Time",
+          "type":"String"
+        },
+        "2":{
+          "name":"Seconds Count Down",
+          "type":"Integer"
+        }
+      }
+    },
+    "8":{
+      "Name": "Audio",
+      "Type": "Conexion",
+      "ResourceId":"",
+      "ReceiverName":"",
+      "Actions":{
+        "1":{
+          "name":"Silent",
+          "type":"boolean"
+        },
+        "2":{
+          "name":"Normal",
+          "type":"boolean"
+        },
+        "3":{
+          "name":"Vibrate",
+          "type":"boolean"
+        }
+      }
+    },
+    "9":{
+      "Name": "Calendar",
+      "Type": "Conexion",
+      "ResourceId":"",
+      "ReceiverName":"",
+      "Actions":{
+        "1":{
+          "name":"Event Reminded",
+          "type":"boolean"
+        }
+      }
+    },
+    "10":{
+      "Name": "Location",
+      "Type": "Conexion",
+      "ResourceId":"",
+      "ReceiverName":"",
+      "Actions":{
+        "1":{
+          "name":"Enter",
+          "type":"Geofence"
+        },
+        "2":{
+          "name":"Exit",
+          "type":"Geofence"
+        }
+      }
+    }
+  },
+  "doElements":{
+    "1":{
+      "Name":"Notification",
+      "Type":"Conexion",
+      "ResourceId":"",
+      "ReceiverName":"ToastManager",
+      "Actions":{
+        "1":{
+          "name":"Show",
+          "type":"String"
+        }
+      }
+    }
+  }
+}

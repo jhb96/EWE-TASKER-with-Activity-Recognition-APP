@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Ewe Tasker</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="if_elements">
+        <item>Bluetooth</item>
+    </string-array>
+    <string-array name="bluetooth_actions">
+        <item>ON</item>
+        <item>OFF</item>
+    </string-array>
+
+    <string-array name="do_elements">
+        <item>Toast</item>
+    </string-array>
+    <string-array name="notif_action">
+        <item>SHOW</item>
+    </string-array>
+
+    <string-array name="default_empty">
+
+    </string-array>
+    <string name="geofences_added">Geofences added</string>
+    <string name="geofences_removed">Geofences removed</string>
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">
+        You have provided too many PendingIntents to the addGeofences() call
+    </string>
+    <string name="unknown_geofence_error">
+    Unknown error: the Geofence service is not available now
+    </string>
+    <string name="geofence_transition_invalid_type">
+        Geofence transition error: invalid transition type %1$d
+    </string>
+
+    <!-- Transition type strings -->
+    <string name="geofence_transition_entered">Entered</string>
+    <string name="geofence_transition_exited">Exited</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+
+    <string name="geofence_transition_notification_text">Click notification to return to app</string>
+    <string name="more_info"><u>+ More info</u></string>
+
+    <!-- Empatica-->
+    <string name="accel">Accelerometers</string>
+    <string name="accel_x">x:</string>
+    <string name="accel_y">y:</string>
+    <string name="accel_z">z:</string>
+    <string name="bvp_label">BVP</string>
+    <string name="eda_label">EDA</string>
+    <string name="ibi_label">IBI</string>
+    <string name="emptyText">-</string>
+    <string name="temp_label">Temperature</string>
+    <string name="battery_label">Battery</string>
+
+    <!-- Recognition Activity-->
+    <string name="title_activity_recognition">RecognitionActivity</string>
+    <string name="track">Track Activity</string>
+    <string name="stats">Show Stats</string>
+    <string name="percentage">%1$d%%</string>
+    <string name="bicycle">On a bicycle</string>
+    <string name="foot">On foot</string>
+    <string name="running">Running</string>
+    <string name="still">Still</string>
+    <string name="tilting">Tilting</string>
+    <string name="unknown_activity">Unknown activity</string>
+    <string name="vehicle">In a vehicle</string>
+    <string name="walking">Walking</string>
+    <string name="title_activity_show_stats">ShowStats</string>
+
+
+    <!-- Navbar notification -->
+    <string name ='channel_name'>Channel Name</string>
+    <string name ='channel_description'>Channel Description</string>
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.dit.gsi.rulesframework">
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Bluetooth permissions -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Wifi permissions -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Calendar permissions -->
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" /> <!-- Geofences permissions -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/favicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ShowStats"
+            android:label="@string/title_activity_show_stats"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <receiver
+            android:name=".receivers.BluetoothReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receivers.WifiReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receivers.CalendarReminderReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.EVENT_REMINDER" />
+
+                <data android:scheme="content" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".ListRulesActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ChooseAppActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RecognitionActivity"
+            android:label="@string/title_activity_recognition"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".NewRuleActivity" />
+        <activity android:name=".BeaconActivity" />
+        <activity android:name=".InfoGSIActivity" />
+        <activity android:name=".ConfigureBeaconActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ListGeofencesActivity" />
+        <activity android:name=".EmpaticaActivity" />
+
+        <service
+            android:name=".services.RuleDefinitionModule"
+            android:enabled="true" />
+        <service
+            android:name=".receivers.GeofenceIntentService"
+            android:enabled="true" />
+        <service
+            android:name=".ActivityIntentService"
+            android:exported="false" />
+
+        <activity
+            android:name=".GestorWebViewActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+    </application>
+
+</manifest>
