@@ -1,4 +1,8 @@
 ![Ewe Tasker Logo](./app/src/main/res/drawable/ewetaskermobile.jpg)
+
+# VIDEO DEMO:
+https://www.youtube.com/watch?v=nXvoqy9qiFo
+
 #Installation
 First of all, clone the git project locally and access to ewe-tasker-android directory.
 
@@ -46,6 +50,7 @@ We can test the test rule created in the previous step by enabling the Bluetooth
 <img src="./app/src/main/res/drawable/arrow_github.png" width="80">
 <img src="./app/src/main/res/drawable/notif.jpg" width="400" >
 </p>
+
 ##Beacon Listener
 In this screen the application will be listening all the beacons located near the smartphone every 10 seconds. This channel gets is named *Presence Sensor*, and requires Bluetooth enabled. The parameters are the sensor ID and the distance between the beacon and the smartphone.
 
