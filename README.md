@@ -74,6 +74,7 @@ In particular, we will explain how the rule ***when I arrive work (less than 2 m
    limitations under the License.
    
 #References
+
 <a href="http://www.gsi.dit.upm.es/index.php/es/investigacion/publicaciones?view=publication&task=show&id=398">[1]</a>*"Design and implementation of a Semantic Task Automation Rule Framework for Android Devices"*
 
 <a href="https://github.com/gsi-upm/ewe-tasker">[3]</a>*"EWE Tasker - Server Documentation"*
