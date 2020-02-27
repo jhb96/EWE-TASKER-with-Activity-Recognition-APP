@@ -4,6 +4,7 @@
 https://www.youtube.com/watch?v=nXvoqy9qiFo
 
 #Installation
+
 First of all, clone the git project locally and access to ewe-tasker-android directory.
 
 ```
@@ -23,7 +24,11 @@ You can also download it from Play Store (Not available yet).
 
 <a href="https://play.google.com/store/apps/details?id=es.dit.gsi.rulesframework">https://play.google.com/store/apps/details?id=es.dit.gsi.rulesframework</a>
 
+
 #Enabling Technologies
+
+This application uses the Activity Recognition Google API and the EWE Tasker platform in order to task automation.
+
 
 <img src="./app/src/main/res/drawable/ewe_logo.png" width="200"></br>
 This application uses **EWE** ontology for channel modelling. **EWE** ontology models the most important aspects of TAS from a descriptive approach, that enables service disovery and semantic rule definition featuring reasoning.
