@@ -1,5 +1,3 @@
-# EWE TASKER APP with ACTIVITY RECOGNITION
-
 ![Ewe Tasker Logo](./app/src/main/res/drawable/ewetaskermobile.jpg)
 
 ## VIDEO DEMO:
