@@ -3,7 +3,7 @@
 # VIDEO DEMO:
 https://www.youtube.com/watch?v=nXvoqy9qiFo " Click to play on Youtube"
 
-#Installation
+## Installation
 
 First of all, clone the git project locally and access to ewe-tasker-android directory.
 ```
@@ -17,7 +17,7 @@ You can also download it from Play Store (Currentlyn not available).
 
 Then, import the project with Android Studio or a similar environment to run it and install it in your device! 
 
-#Enabling Technologies
+## Enabling Technologies
 
 This application uses the Activity Recognition Google API and the EWE Tasker platform in order to monitor user activity and automation task, respectively.
 
@@ -31,16 +31,16 @@ The automation task process is based in **EWE** ontology for channel modelling. 
 This application uses **EYE** which stands for *Euler Yet another proof Engine*, and it is a further development of Euler which is an inference engine supporting logic based proofs. EYE is a semibackward reasoner enhanced with Euler path detection. The core of **EYE** accepts **N3** (*Notation 3*) code, which is a Prolog representation resulting from parsing *RDF* triples and N3 rules.
 
 
-#User Guide
-##Rules Framework
-###Rule Definition Module
+# User Guide
+## Rules Framework
+### Rule Definition Module
 In this section we will create a rule using the default channels hosted in the public server. You can start by pressing the '+' button. The rule we want to create will have an **ECA** (Event - Condition - Action) structure i.e. ***If Bluetooth is enabled then show a notification saying "You have enabled Bluetooth!"*** . First of all we will choose the Bluetooth channel as **IF** actor selecting the *Turn On* as triggering event. Then, we will select the Notification module as **DO** performer, filling in the *Show* action the text we want to show (*You have enabled Bluetooth!*). Finally, it is necessary to complete the rule context data like title, description or place.
 
 <p align="center">
 <img src="./app/src/main/res/drawable/ruletest.jpg" width="400">
 </p>
 
-###Rule Execution Module
+### Rule Execution Module
 We can test the test rule created in the previous step by enabling the Bluetooth. As result we obtain the customized notifification created in the rule definition process.
 <p align="middle">
 <img src="./app/src/main/res/drawable/BT.jpg" width="80" >
@@ -48,10 +48,10 @@ We can test the test rule created in the previous step by enabling the Bluetooth
 <img src="./app/src/main/res/drawable/notif.jpg" width="400" >
 </p>
 
-##Beacon Listener
+## Beacon Listener
 In this screen the application will be listening all the beacons located near the smartphone every 10 seconds. This channel gets is named *Presence Sensor*, and requires Bluetooth enabled. The parameters are the sensor ID and the distance between the beacon and the smartphone.
 
-###Door opening
+### Door opening
 In particular, we will explain how the rule ***when I arrive work (less than 2 meters), open the smart door***. The smartphone must be in the listening beacon screen. When the phone is located at a distance less than 2 meters from the beacon, an allert dialog will pop up requesting the password and opening the door if success.
 
 <p align="center">
@@ -60,7 +60,7 @@ In particular, we will explain how the rule ***when I arrive work (less than 2 m
 
 *Note: Request the GSI access password to the lab master*
 
-#License
+# License
    Copyright 2016 Antonio Fernández Llamas, Sergio Muñoz López and Carlos A. Iglesias Fernández.
 
    Licensed under the Apache License, Version 2.0 (the "License");
@@ -75,7 +75,7 @@ In particular, we will explain how the rule ***when I arrive work (less than 2 m
    See the License for the specific language governing permissions and
    limitations under the License.
    
-#References
+# References
 
 <a href="http://www.gsi.dit.upm.es/index.php/es/investigacion/publicaciones?view=publication&task=show&id=398">[1]</a>*"Design and implementation of a Semantic Task Automation Rule Framework for Android Devices"*
 
