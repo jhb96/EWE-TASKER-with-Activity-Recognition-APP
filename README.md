@@ -1,7 +1,7 @@
 ![Ewe Tasker Logo](./app/src/main/res/drawable/ewetaskermobile.jpg)
 
 # VIDEO DEMO:
-[![] (https://www.youtube.com/watch?v=nXvoqy9qiFo)](https://www.youtube.com/watch?v=nXvoqy9qiFo " Click to play on Youtube")
+https://www.youtube.com/watch?v=nXvoqy9qiFo " Click to play on Youtube"
 
 #Installation
 
@@ -9,13 +9,6 @@ First of all, clone the git project locally and access to ewe-tasker-android dir
 
 ```
 git clone https://github.com/jhb96/EWE-TASKER-with-Activity-Recognition-APP
-
-```
-Open and compile the project from Android Studio or drag and drop the apk file to your smartphone
-
-
-```
-EWETaskerMobile.apk
 
 ```
 
