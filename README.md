@@ -60,7 +60,7 @@ In particular, we will explain how the rule ***when I arrive work (less than 2 m
 
 *Note: Request the GSI access password to the lab master*
 
-# License
+## License
    Copyright 2016 Antonio Fernández Llamas, Sergio Muñoz López and Carlos A. Iglesias Fernández.
 
    Licensed under the Apache License, Version 2.0 (the "License");
@@ -75,7 +75,7 @@ In particular, we will explain how the rule ***when I arrive work (less than 2 m
    See the License for the specific language governing permissions and
    limitations under the License.
    
-# References
+## References
 
 <a href="http://www.gsi.dit.upm.es/index.php/es/investigacion/publicaciones?view=publication&task=show&id=398">[1]</a>*"Design and implementation of a Semantic Task Automation Rule Framework for Android Devices"*
 
