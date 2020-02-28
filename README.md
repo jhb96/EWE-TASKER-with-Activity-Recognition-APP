@@ -6,7 +6,6 @@ https://www.youtube.com/watch?v=nXvoqy9qiFo " Click to play on Youtube"
 #Installation
 
 First of all, clone the git project locally and access to ewe-tasker-android directory.
-
 ```
 git clone https://github.com/jhb96/EWE-TASKER-with-Activity-Recognition-APP
 
@@ -16,6 +15,7 @@ You can also download it from Play Store (Currentlyn not available).
 
 <a href="https://play.google.com/store/apps/details?id=es.dit.gsi.rulesframework">https://play.google.com/store/apps/details?id=es.dit.gsi.rulesframework</a>
 
+Then, import the project with Android Studio or a similar environment to run it and install it in your device! 
 
 #Enabling Technologies
 
